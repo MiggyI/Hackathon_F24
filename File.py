@@ -14,7 +14,7 @@ cs_courses = {
 
 
 # Create a DataFrame
-courses_df = pd.DataFrame(cs_courses)
+courses_df = pd.read_csv("CS.csv")
 
 # Display the DataFrame
 print(courses_df)
