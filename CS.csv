@@ -1,7 +1,17 @@
-﻿Course Code,Course Name,Credits,Prerequisites,Terms Offered
-CS 210,Computer Science I,4,,"Fall, Winter"
-CS 211,Computer Science II,4,CS 210,"Winter, Spring"
-CS 212,Computer Science III,4,CS 211,"Fall, Spring"
-MATH 231,Elements of Discrete Mathematics I,4,MATH 251,"Fall, Winter, Spring"
-MATH 232,Elements of Discrete Mathematics II,4,MATH 231,"Fall, Winter, Spring"
-MATH 251,Calculus I,4,,"Fall, Winter, Spring"
+﻿Course Code,Course Name,Credits,Prerequisites,Fall,Winter,Spring
+CS 210,Computer Science I,4,,1,1,1
+CS 211,Computer Science II,4,CS 210,0,1,1
+CS 212,Computer Science III,4,CS 211,1,0,1
+MATH 231,Elements of Discrete Mathematics I,4,MATH 251,1,1,1
+MATH 232,Elements of Discrete Mathematics II,4,MATH 231,1,1,1
+MATH 251,Calculus I,4,,1,1,1
+CS 313,Intermediate Data Structures,4,"CS 212, MATH 231",1,1,0
+CS 314,Computer Organization,4,CS 212,1,1,0
+CS 315,Intermediate Algorithms,4,CS 313,0,1,1
+CS 330,C/C++ and Unix,4,CS 314,0,1,1
+CS 415,Operating Systems,4,CS 330,1,0,1
+CS 422,Software Methodology I,4,CS 313,1,1,1
+CS 425,Principles of Programming Languages,4,CS 315,1,0,1
+,,,,,,
+,,,,,,
+,,,,,,
