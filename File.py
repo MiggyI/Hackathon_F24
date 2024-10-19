@@ -7,12 +7,14 @@ cs_courses = {
     "Course Name": ["Computer Science I", "Computer Science II", "Computer Science III",
                     "Elements of Discrete Mathematics I", "Elements of Discrete Mathematics II", "Calculus I"],
     "Credits": [4, 4, 4, 4, 4, 4],
-    "Prerequisites": ["None", "CS 210", "CS 211", "MATH 251", "MATH 231", "None"]
+    "Prerequisites": ["None", "CS 210", "CS 211", "MATH 251", "MATH 231", "None"],
+    "Terms Offered": [["Fall", "Spring"], ["Winter", "Spring"], ["Fall", "Spring"], ["Fall", "Winter", "Spring"],
+                      ["Fall", "Winter", "Spring"], ["Fall", "Winter", "Spring"]]
 }
 
 
 # Create a DataFrame
-courses_df = pd.DataFrame(courses)
+courses_df = pd.DataFrame(cs_courses)
 
 # Display the DataFrame
 print(courses_df)
